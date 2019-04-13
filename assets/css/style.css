@@ -1,11 +1,15 @@
 header {
     background: #ffffff;
     border-color: #cccccc;
-    text-align: right;
+    text-align: center;
     
 }
 
-footer {background-color: #666666
+footer {
+    background-color: #666666;
+    text-align:center;
+    border-top: 4px #4aaaa5 solid;
+    padding:15px;
 }
 
 .page-title {
@@ -16,9 +20,15 @@ footer {background-color: #666666
     border:solid #4aaaa5;
     margin: 0;
     background-color: #4aaaa5;
+    display: inline-block;
+    margin-right: 170px;
+    color:white;
     
 }
 
+.links{
+    display: inline-block;
+}
 body {
     padding: 0;
     margin: 0;
@@ -41,6 +51,11 @@ p {
 }
 
 .main-content {
+    position: absolute; 
+    left: 30%; 
+    margin-left: -90px;
+    width: 653px;
+    height: 425px;
     padding: 20px;
     background-color: #ffffff
     
